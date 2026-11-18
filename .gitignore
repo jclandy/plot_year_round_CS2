@@ -1,0 +1,79 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.ipynb_checkpoints/
+
+# Local Python / Conda environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python packaging and build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# MATLAB autosaves, backups, and session files
+*.asv
+*.m~
+*.mlx~
+*.slx~
+*.autosave
+matlab_crash_dump.*
+java.log.*
+MATLABDesktop.xml
+History.xml
+history.m
+
+# Compiled MATLAB / Simulink outputs
+*.mex*
+*.p
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*.slxc
+
+# Generated plot directories (Python and MATLAB)
+/general_plots_*/
+/matlab_general_plots_*/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Editor temporary files and local project settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Files
+example.py
+requirements.txt
+sample_along_backtraj.m
+
+# Keep required auxiliary data versioned.
+# Do not globally ignore *.mat, *.shp, *.dbf, *.shx, *.prj, or *.cpg.
