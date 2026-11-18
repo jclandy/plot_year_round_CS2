@@ -57,8 +57,8 @@ assets = Path(__file__).parent / 'aux_files'
 
 Create biweekly sea-ice thickness maps for 2020 and for all Septembers between 2011 and 2024
 ```python
-plot_map_climatology('sea_ice_thickness', folder, out, version)
 plot_map_year(2020, 'sea_ice_thickness', folder, out, version)
+plot_map_month(9, 'sea_ice_thickness', folder, out, version)
 ```
 Create plot of climatological sea-ice thickness and its variability between years
 ```python
